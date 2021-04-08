@@ -1,3 +1,5 @@
+
+
 public class Calculadora {
 
     private int num1;
@@ -25,5 +27,11 @@ public class Calculadora {
     }
 }
 
+class Main{
+    public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora(3,4);
+        calculadora.Suma();
+    }
+}
 
 
