@@ -1,3 +1,7 @@
 language: java
 jdk:
   - openjdk9
+install:
+  - ant deps
+script:
+  -ant test
