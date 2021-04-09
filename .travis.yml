@@ -5,3 +5,4 @@ install:
   - ant deps
 script:
   -ant test
+  -and deps
